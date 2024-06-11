@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<FileVersion>1.0.0.50</FileVersion>
+
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\..\dll</OutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\DB.Core\DB.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<Reference Include="BusinessInterface">
+			<HintPath>..\..\dll\BusinessInterface.dll</HintPath>
+		</Reference>
+
+		<Reference Include="Common">
+			<HintPath>..\..\..\QHPaaS\dll\Common.dll</HintPath>
+		</Reference>
+
+		<Reference Include="CSRedisCore">
+			<HintPath>..\..\dll\CSRedisCore.dll</HintPath>
+		</Reference>
+
+		<Reference Include="EncryptionKey">
+			<HintPath>..\..\dll\EncryptionKey.dll</HintPath>
+		</Reference>
+
+		<Reference Include="Microsoft.Extensions.Configuration">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.Binder">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.CommandLine">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.CommandLine.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.EnvironmentVariables">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.FileExtensions">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.Ini">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.Ini.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.Json">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.UserSecrets">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.UserSecrets.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>..\..\dll\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="PasS.Base.Lib">
+			<HintPath>..\..\dll\PasS.Base.Lib.dll</HintPath>
+		</Reference>
+		<Reference Include="SqlSugar">
+			<HintPath>..\..\dll\SqlSugar.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Configuration.ConfigurationManager">
+			<HintPath>..\..\dll\System.Configuration.ConfigurationManager.dll</HintPath>
+		</Reference>
+
+
+	</ItemGroup>
+
+
+</Project>

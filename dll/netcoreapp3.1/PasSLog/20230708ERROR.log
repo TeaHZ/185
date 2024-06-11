@@ -1,0 +1,30 @@
+2023-07-08 14:52:35.409 ERROR
+SpringAPI.Remove: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PasS.Base.Lib.DbHelper.RuntimeLibraryGet(SRuntimeLibraryGet libraryGet)
+   at PasS.Base.Lib.SpringAPI.RemoveS(SpringAPIData springAPIData, Boolean Local){"PROJECT":"default","ContainIGNORE":false}
+
+2023-07-08 14:52:35.417 ERROR
+DepsJsonHelper.CheckLocalRuntime: Object reference not set to an instance of an object.
+
+2023-07-08 14:52:40.436 ERROR
+SpringAPI.Remove: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PasS.Base.Lib.DAL.Fileinfo.GetTbNewSysPaaSFile(DateTime lastupTime)
+   at PasS.Base.Lib.SpringAPI.RemoveS(SpringAPIData springAPIData, Boolean Local)2023/7/8 14:49:57
+
+2023-07-08 14:52:40.466 ERROR
+SpringAPI.Remove: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PasS.Base.Lib.DbHelper.SLBInfoListGet(String where)
+   at PasS.Base.Lib.DbHelper.SLBInfoGet(String SLBID)
+   at PasS.Base.Lib.SpringAPI.RemoveS(SpringAPIData springAPIData, Boolean Local)PaaS4401
+
+2023-07-08 15:33:36.076 ERROR
+SpringAPI.Remove: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PasS.Base.Lib.DbHelper.RuntimeLibraryGet(SRuntimeLibraryGet libraryGet)
+   at PasS.Base.Lib.SpringAPI.RemoveS(SpringAPIData springAPIData, Boolean Local){"PROJECT":"default","ContainIGNORE":false}
+
+2023-07-08 15:33:36.080 ERROR
+DepsJsonHelper.CheckLocalRuntime: Object reference not set to an instance of an object.
+
+2023-07-08 16:22:14.453 ERROR
+DepsJsonHelper.CheckLocalRuntime: Object reference not set to an instance of an object.
+

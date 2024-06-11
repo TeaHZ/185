@@ -1,0 +1,214 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OnlineBusHos9_EInvoice/1.0.0": {
+        "dependencies": {
+          "BusinessInterface": "1.0.0.0",
+          "Common": "1.0.0.0",
+          "EncryptionKey": "1.0.0.0",
+          "Newtonsoft.Json": "13.0.0.0",
+          "PasS.Base.Lib": "1.0.0.0",
+          "SqlSugar": "5.0.4.7",
+          "System.Configuration.ConfigurationManager": "6.0.0.0"
+        },
+        "runtime": {
+          "OnlineBusHos9_EInvoice.dll": {}
+        }
+      },
+      "BusinessInterface/1.0.0.0": {
+        "runtime": {
+          "BusinessInterface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Common/1.0.0.0": {
+        "runtime": {
+          "Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EncryptionKey/1.0.0.0": {
+        "runtime": {
+          "EncryptionKey.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "PasS.Base.Lib/1.0.0.0": {
+        "runtime": {
+          "PasS.Base.Lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SqlSugar/5.0.4.7": {
+        "runtime": {
+          "SqlSugar.dll": {
+            "assemblyVersion": "5.0.4.7",
+            "fileVersion": "5.0.4.7"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0.0": {
+        "runtime": {
+          "System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "MQSchedulerPaaS/1.0.0.0": {
+        "runtime": {
+          "MQSchedulerPaaS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "NPinyin/0.2.4588.20158": {
+        "runtime": {
+          "NPinyin.dll": {
+            "assemblyVersion": "0.2.4588.20158",
+            "fileVersion": "0.2.4588.20158"
+          }
+        }
+      },
+      "BouncyCastle.Crypto/1.9.0.0": {
+        "runtime": {
+          "BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
+      "DmProvider/1.1.2.0": {
+        "runtime": {
+          "DmProvider.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.21203"
+          }
+        }
+      },
+      "CSRedisCore/3.6.6.0": {
+        "runtime": {
+          "CSRedisCore.dll": {
+            "assemblyVersion": "3.6.6.0",
+            "fileVersion": "3.6.6.0"
+          }
+        }
+      },
+      "RabbitMQ.Client/3.6.14.0": {
+        "runtime": {
+          "RabbitMQ.Client.dll": {
+            "assemblyVersion": "3.6.14.0",
+            "fileVersion": "3.6.14.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineBusHos9_EInvoice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessInterface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EncryptionKey/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PasS.Base.Lib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SqlSugar/5.0.4.7": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQSchedulerPaaS/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.Common/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NPinyin/0.2.4588.20158": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.Crypto/1.9.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DmProvider/1.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSRedisCore/3.6.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQ.Client/3.6.14.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

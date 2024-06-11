@@ -1,0 +1,16 @@
+2023-07-08 14:52:59.858 Heren
+1001-QHZZJ「请求」:
+ {"zhengJianHM":"320223196504053972","yeWuLX":"1001","hospitalId":"320282466455146","yiBaoBH":"32028200000000001000754622","yiBaoData":"mqqIE/CVbwsrWPAGNwAcEuU7GRBHcCFGm6eVQcG1yA8jxUulYUh0KNJahqzfNUkPhQdOR65TnjG3llzf0cXpWI1bK1g1OTiKxbIjIM12rjgwClQEHEfQve0iGRwdihnQbgSiO5E3Irb4QlS3dg5rJ1TbylwDqK9VMrTCSuLyvv3oaGREHygLxp00nG3Z372w9TQiLbe9Rs7Vi8kQSHJOinJo9+dH8HkKVmypWslMZaLio7mzNCxaRK7JxY6K45S1Sns/EkJeIpcZzbE4NyscGUKb2kkxpxXGd6Jc6Gm/uYfftx+DGyp9XwWsPJv6UgMd","duKaFS":"1","jiuZhenKH":"","yiBaoXX":"320200|320223196504053972|198206353|320200D156000005AE06F57EB84189AD|陈顺强|00878E300186493202AE06F57E|3.00|20230323|20330323|320200909168|00010100202207001085|JSB041931784|6230661635025060252|","shouJiHao":""}
+
+2023-07-08 14:53:01.270 Heren
+1001-QHZZJ「响应」:
+ {"code":1,"data":[{"bingRenLX":"宜兴医保","bingRenXM":"陈顺强","caoZuoRID":"","caoZuoRXM":"","chuShengDi":"江苏省无锡市宜兴市鲸塘镇庄村村董渚6号","chuShengRQ":"1965-04-05 00:00:00","chuanRanBingMS":"","chuangJianSJ":"2022-02-23 00:00:00","dianZiSBK":"","hunYinZT":"","jiGuan":"","jiaTingDZ":"","jianDangId":"01017587","jianKangKID":"","jianKangXW":"","laiYuan":"","lianXiRenDH":"","lianXiRenDZ":"","lianXiRenSJ":"","lianXiRenXM":"","manXingBingMS":"","minZuMC":"","shenGao":"","shouJiHao":13222085068,"tiZhong":"","touXiang":"","xingBie":1,"xueLi":"","xueXing":"","yiBaoKLX":"","yiBaoKa":"","youWuCRB":"","youWuMXB":"","zaiZhiZT":"","zhengJianHM":320223196504053972,"zhengJianLX":"","zhengZhiMMBM":"","zhengZhiMMMC":"","zhiYe":""}],"msg":"成功"}
+
+2023-07-08 17:33:39.125 Heren
+1001-QHZZJ「请求」:
+ {"zhengJianHM":"320223196504053972","yeWuLX":"1001","hospitalId":"320282466455146","yiBaoBH":"32028200000000001000754622","yiBaoData":"mqqIE/CVbwsrWPAGNwAcEuU7GRBHcCFGm6eVQcG1yA8jxUulYUh0KNJahqzfNUkPhQdOR65TnjG3llzf0cXpWI1bK1g1OTiKxbIjIM12rjgwClQEHEfQve0iGRwdihnQbgSiO5E3Irb4QlS3dg5rJ1TbylwDqK9VMrTCSuLyvv3oaGREHygLxp00nG3Z372w9TQiLbe9Rs7Vi8kQSHJOinJo9+dH8HkKVmypWslMZaLio7mzNCxaRK7JxY6K45S1Sns/EkJeIpcZzbE4NyscGUKb2kkxpxXGd6Jc6Gm/uYfftx+DGyp9XwWsPJv6UgMd","duKaFS":"1","jiuZhenKH":"","yiBaoXX":"320200|320223196504053972|198206353|320200D156000005AE06F57EB84189AD|陈顺强|00878E300186493202AE06F57E|3.00|20230323|20330323|320200909168|00010100202207001085|JSB041931784|6230661635025060252|","shouJiHao":""}
+
+2023-07-08 17:33:40.487 Heren
+1001-QHZZJ「响应」:
+ {"code":1,"data":[{"bingRenLX":"宜兴医保","bingRenXM":"陈顺强","caoZuoRID":"","caoZuoRXM":"","chuShengDi":"江苏省无锡市宜兴市鲸塘镇庄村村董渚6号","chuShengRQ":"1965-04-05 00:00:00","chuanRanBingMS":"","chuangJianSJ":"2022-02-23 00:00:00","dianZiSBK":"","hunYinZT":"","jiGuan":"","jiaTingDZ":"","jianDangId":"01017587","jianKangKID":"","jianKangXW":"","laiYuan":"","lianXiRenDH":"","lianXiRenDZ":"","lianXiRenSJ":"","lianXiRenXM":"","manXingBingMS":"","minZuMC":"","shenGao":"","shouJiHao":13222085068,"tiZhong":"","touXiang":"","xingBie":1,"xueLi":"","xueXing":"","yiBaoKLX":"","yiBaoKa":"","youWuCRB":"","youWuMXB":"","zaiZhiZT":"","zhengJianHM":320223196504053972,"zhengJianLX":"","zhengZhiMMBM":"","zhengZhiMMMC":"","zhiYe":""}],"msg":"成功"}
+

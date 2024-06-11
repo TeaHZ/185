@@ -1,0 +1,13 @@
+﻿{
+    "lTERMINAL_SN": "ZZJ01",
+    "USER_ID": "QHZZJ",
+    "HOS_ID": "185",
+    "SOURCE": "ZZJ",
+    "FILTER": "",
+    "YLCARD_TYPE": "1",
+    "YLCARD_NO": "1",
+    "HOSPATID": "",
+    "SFZ_NO": "",
+    "BEGIN_DATE": "",
+    "END_DATE": ""
+}

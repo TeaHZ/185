@@ -1,0 +1,116 @@
+2023-08-01 08:09:32.968 Heren
+1186-QHZZJ「请求」:
+ {
+  "patientId": "01061666",
+  "operatorId": "NSH048",
+  "visitNo": "1179500"
+}
+
+2023-08-01 08:09:34.125 Heren
+1186-QHZZJ「响应」:
+ {"Head":{"TradeCode":"1186-QHZZJ","TradeTime":"2023-08-01 08:09:19","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-08-01 08:10:05.146 Heren
+1186-QHZZJ「请求」:
+ {
+  "patientId": "01061666",
+  "operatorId": "NSH048",
+  "visitNo": "1179500"
+}
+
+2023-08-01 08:10:05.551 Heren
+1186-QHZZJ「响应」:
+ {"Head":{"TradeCode":"1186-QHZZJ","TradeTime":"2023-08-01 08:09:50","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-08-01 08:11:31.517 Heren
+1186-QHZZJ「请求」:
+ {
+  "patientId": "01061666",
+  "operatorId": "NSH048",
+  "visitNo": "1179500"
+}
+
+2023-08-01 08:11:32.022 Heren
+1186-QHZZJ「响应」:
+ {"code":1,"data":[{"chargeType":"自费","gongJiZhangHuAmount":0,"hosAccBalance":"","insPayAmount":0,"insPayInfo":"","otherAmount":0,"otherInsAmount":0,"patientId":"01061666","selfPayAmount":15010.44,"tongChouAmount":0,"totalCharges":15010.44,"totalNeedPay":0.42,"totalPrepayment":15010.02,"zhangHuAmount":0,"zhangHuYE":0}],"msg":"成功"}
+
+2023-08-01 08:25:33.301 Heren
+1186-QHZZJ「请求」:
+ {
+  "patientId": "01061666",
+  "operatorId": "NSH048",
+  "visitNo": "1179500"
+}
+
+2023-08-01 08:25:33.795 Heren
+1186-QHZZJ「响应」:
+ {"code":1,"data":[{"chargeType":"自费","gongJiZhangHuAmount":0,"hosAccBalance":"","insPayAmount":0,"insPayInfo":"","otherAmount":0,"otherInsAmount":0,"patientId":"01061666","selfPayAmount":15010.44,"tongChouAmount":0,"totalCharges":15010.44,"totalNeedPay":0.42,"totalPrepayment":15010.02,"zhangHuAmount":0,"zhangHuYE":0}],"msg":"成功"}
+
+2023-08-01 08:30:42.187 Heren
+1187-QHZZJ「请求」:
+ {"payChannel":"","selfPayAmount":"","thirdPartHisNo":"","tradeNo":"","appId":"2022081925029211","defrayNo":"","channelTradeNo":"","visitNo":"01061666","patientId":null,"operatorId":"NSH048"}
+
+2023-08-01 08:30:42.347 Heren
+1187-QHZZJ「响应」:
+ {"code":-1,"msg":"{\"resultCode\":\"503\",\"descMessage\":\"patientId不能为空\",\"result\":null}"}
+
+2023-08-01 08:37:43.923 Heren
+1186-QHZZJ「请求」:
+ {
+  "patientId": "01061666",
+  "operatorId": "NSH048",
+  "visitNo": "1179500"
+}
+
+2023-08-01 08:37:44.406 Heren
+1186-QHZZJ「响应」:
+ {"code":1,"data":[{"chargeType":"自费","gongJiZhangHuAmount":0,"hosAccBalance":"","insPayAmount":0,"insPayInfo":"","otherAmount":0,"otherInsAmount":0,"patientId":"01061666","selfPayAmount":15010.44,"tongChouAmount":0,"totalCharges":15010.44,"totalNeedPay":0.42,"totalPrepayment":15010.02,"zhangHuAmount":0,"zhangHuYE":0}],"msg":"成功"}
+
+2023-08-01 09:18:48.329 Heren
+支付「请求」:
+ {"appId":"2022081925029211","method":"uniform.trade.pay","sign":"71ef0bbd5d861730985bdcae5bc6a638","notifyUrl":"","optional":"","bizContent":"{\"channel\":\"UN_MERGE_BAR_CODE\",\"appTradeNo\":\"A20230801091848285409\",\"signNo\":\"\",\"contractId\":\"\",\"userId\":\"\",\"title\":\"\",\"body\":\"Z出院结算|530627201107243000|QHZZ01&4\",\"scene\":\"\",\"authCode\":\"289208452624749055\",\"authNo\":\"\",\"defrayFee\":\"0.42\",\"abnormalUrl\":\"\",\"returnUrl\":\"\",\"payExpire\":\"\",\"expireTime\":\"\",\"goodsTag\":\"\",\"openId\":\"\",\"subOpenId\":\"\",\"terminalIp\":\"127.0.0.1\",\"terminalId\":\"\",\"mac\":\"\"}"}
+
+2023-08-01 09:18:48.693 Heren
+支付「响应」:
+ {"code":"ACQ_INVALID_PARAMETER","msgInfo":"检查请求参数，修改后重新发起请求"}
+
+2023-08-01 09:20:01.292 Heren
+支付「请求」:
+ {"appId":"2022081925029211","method":"uniform.trade.pay","sign":"bc851f8cb0a47430121788143e41046a","notifyUrl":"","optional":"","bizContent":"{\"channel\":\"UN_MERGE_BAR_CODE\",\"appTradeNo\":\"W20230801092001292956\",\"signNo\":\"\",\"contractId\":\"\",\"userId\":\"\",\"title\":\"\",\"body\":\"Z出院结算|530627201107243000|QHZZ01&4\",\"scene\":\"\",\"authCode\":\"132884570108573814\",\"authNo\":\"\",\"defrayFee\":\"0.42\",\"abnormalUrl\":\"\",\"returnUrl\":\"\",\"payExpire\":\"\",\"expireTime\":\"\",\"goodsTag\":\"\",\"openId\":\"\",\"subOpenId\":\"\",\"terminalIp\":\"127.0.0.1\",\"terminalId\":\"\",\"mac\":\"\"}"}
+
+2023-08-01 09:20:01.469 Heren
+支付「响应」:
+ {"code":"ACQ_INVALID_PARAMETER","msgInfo":"检查请求参数，修改后重新发起请求"}
+
+2023-08-01 09:22:45.767 Heren
+支付「请求」:
+ {"appId":"2022081925029211","method":"uniform.trade.pay","sign":"62b3932523efd4067226a1e1ecfeca06","notifyUrl":"","optional":"","bizContent":"{\"channel\":\"UN_MERGE_BAR_CODE\",\"appTradeNo\":\"W20230801092041340766\",\"signNo\":\"\",\"contractId\":\"\",\"userId\":\"\",\"title\":\"\",\"body\":\"Z出院结算|530627201107243000|QHZZ01&4\",\"scene\":\"\",\"authCode\":\"132884570108573814\",\"authNo\":\"\",\"defrayFee\":\"0.42\",\"abnormalUrl\":\"\",\"returnUrl\":\"\",\"payExpire\":\"\",\"expireTime\":\"\",\"goodsTag\":\"\",\"openId\":\"\",\"subOpenId\":\"\",\"terminalIp\":\"127.0.0.1\",\"terminalId\":\"\",\"mac\":\"\"}"}
+
+2023-08-01 09:22:45.954 Heren
+支付「响应」:
+ {"code":"ACQ_INVALID_PARAMETER","msgInfo":"检查请求参数，修改后重新发起请求"}
+
+2023-08-01 11:15:51.925 Heren
+5210-QHZZJ「请求」:
+ {"zhuYuanHao":"01061666","zhengJianHM":"530627201107243000"}
+
+2023-08-01 11:15:52.329 Heren
+5210-QHZZJ「响应」:
+ {"code":1,"data":{"VisitNo":1179500,"bingQu":"A八病区","bingRenXM":"申云彩","chuangWei":"","idNo":530627201107243000,"patientId":"01061666","ruYuanKS":"儿科病房","ruYuanRQ":"2023-02-17","yuJiaoJYE":-0.42,"yuJiaoJZE":15010.02,"zhuYuanFY":15010.44,"zhuYuanHao":"01061666","zhuangTai":3},"msg":"成功"}
+
+2023-08-01 13:39:29.088 Heren
+1187-QHZZJ「请求」:
+ {"payChannel":"1","selfPayAmount":"0.42","thirdPartHisNo":"A20230801133412072022","tradeNo":"A20230801133412072022","appId":"2022081925029211","defrayNo":"202308011334191020778625","channelTradeNo":"2023080122001487921451787938","visitNo":"1179500","patientId":"01061666","operatorId":"NSH048"}
+
+2023-08-01 13:39:29.721 Heren
+1187-QHZZJ「响应」:
+ {"code":-1,"msg":"{\"resultCode\":\"000000\",\"descMessage\":\"系统错误:\",\"result\":null}"}
+
+2023-08-01 14:59:14.283 Heren
+2025-QHZZJ「请求」:
+ {"bingRenXM":"王忠健","jiuZhenSJ":"","dianHua":"13812207581","keShiMC":"","yiShengDM":"618","hospitalId":"320282466455146","keShiDM":"20221102000000000001","guaHaoBC":"2","yeWuLX":"2025","guaHaoLB":"","bingRenID":null,"yiZhouPBID":"","shouJiHao":"13812207581","dangTianPBID":"","jiuZhenRQ":"2023-08-01","duKaFS":"1","yiBaoXX":"320200|320223197301167376|113593121|320200D156000005A5FEBC1BC0710E4A|王忠健|008100883786653202A5FEBC1B|2.00|20150706||320200908855|00010100202110902432|JSB04158353X|6230661635009039355|","guaHaoXH":null,"zhengJianHM":"320223197301167376","bingRenLX":"2","yiBaoData":"113593121|NR9P6Jr2E2YPXa4nMF05atdw87QRX9W9OLKde+9sy14HvWfQk200JXaa2xmsf0N/WiscVcA/12khTpWRWKZCwxLmCVNXwvNDcOaba5VBdQU7NK4XZqBtBtW9u1GteC4aa2+xPDWPGQVgJgz02o4i055MgrOJrVtptrRdhw2ftSB67MX1+bB9yLhBRKX4UAWjHL6Lke9sHtI0Lq8zIg6L9zImZRCPcYm+b4G6fTWO7F9NVCFJA3Z0qSYA+GNUWr0JigLm/ukvMduLvHyF/NP79aE29o8scMwBD5sDPhsh4wY=","yiShengXM":"","caoZuoRId":"NSH015","yuGuaHaoId":"A:2023080100000012","guoBiaoKSDM":"","yeWuLY":"2","jiuZhenKa":"","yiBaoKa":"32028200000000001000736224"}
+
+2023-08-01 14:59:16.658 Heren
+2025-QHZZJ「响应」:
+ {"code":-1,"msg":"{\"resultCode\":\"503\",\"descMessage\":\"未找到编号为2023080100000012的加号记录!\",\"result\":null}"}
+

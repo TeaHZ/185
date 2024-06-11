@@ -1,0 +1,92 @@
+2023-07-25 17:59:25.606 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10000006",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 17:59:26.187 Heren
+52081-QHZZJ「响应」:
+ {"Head":{"TradeCode":"52081-QHZZJ","TradeTime":"2023-07-25 17:59:32","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-25 17:59:48.074 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10000006",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 17:59:48.531 Heren
+52081-QHZZJ「响应」:
+ {"Head":{"TradeCode":"52081-QHZZJ","TradeTime":"2023-07-25 17:59:54","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-25 18:00:03.983 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10000006",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 18:04:07.081 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10000006",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 18:04:07.945 Heren
+52081-QHZZJ「响应」:
+ {"code":-1,"msg":"无发票数据"}
+
+2023-07-25 18:04:15.227 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10000006",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 18:04:15.564 Heren
+52081-QHZZJ「响应」:
+ {"code":-1,"msg":"无发票数据"}
+
+2023-07-25 18:04:37.463 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10000006",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 18:04:37.955 Heren
+52081-QHZZJ「响应」:
+ {"code":-1,"msg":"无发票数据"}
+
+2023-07-25 18:05:43.242 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10141073",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 18:05:43.424 Heren
+52081-QHZZJ「响应」:
+ {"code":1,"data":[{"deptName":"儿科","einvoiceCode":32060123,"einvoiceNumber":"0836692976","invoicefiledata":"","operationDate":"2023-07-25 16:45:31","printDetailFlag":"","printFlag":2,"rcptNo":23072500010181,"rcptType":"门诊收费票据","rcptUrl":"http:\/\/einvoice.jsczt.cn\/d\/473011eee92f7f03dfe","totalCharges":165.16},{"deptName":"儿科","einvoiceCode":32060123,"einvoiceNumber":"0836692001","invoicefiledata":"","operationDate":"2023-07-25 15:30:03","printDetailFlag":"","printFlag":2,"rcptNo":23072500008788,"rcptType":"门诊收费票据","rcptUrl":"http:\/\/einvoice.jsczt.cn\/d\/473011eee92f42106fb","totalCharges":59.35},{"deptName":"儿科","einvoiceCode":32060123,"einvoiceNumber":"0836691581","invoicefiledata":"","operationDate":"2023-07-25 15:06:50","printDetailFlag":"","printFlag":2,"rcptNo":23072500008706,"rcptType":"诊察费票据","rcptUrl":"http:\/\/einvoice.jsczt.cn\/d\/473011eee92f27d2668","totalCharges":45}],"msg":"成功"}
+
+2023-07-25 18:06:05.106 Heren
+52081-QHZZJ「请求」:
+ {
+  "patientId": "10141073",
+  "startDate": "2023-06-25",
+  "endDate": "2023-07-25"
+}
+
+2023-07-25 18:06:05.297 Heren
+52081-QHZZJ「响应」:
+ {"code":1,"data":[{"deptName":"儿科","einvoiceCode":32060123,"einvoiceNumber":"0836692976","invoicefiledata":"","operationDate":"2023-07-25 16:45:31","printDetailFlag":"","printFlag":2,"rcptNo":23072500010181,"rcptType":"门诊收费票据","rcptUrl":"http:\/\/einvoice.jsczt.cn\/d\/473011eee92f7f03dfe","totalCharges":165.16},{"deptName":"儿科","einvoiceCode":32060123,"einvoiceNumber":"0836692001","invoicefiledata":"","operationDate":"2023-07-25 15:30:03","printDetailFlag":"","printFlag":2,"rcptNo":23072500008788,"rcptType":"门诊收费票据","rcptUrl":"http:\/\/einvoice.jsczt.cn\/d\/473011eee92f42106fb","totalCharges":59.35},{"deptName":"儿科","einvoiceCode":32060123,"einvoiceNumber":"0836691581","invoicefiledata":"","operationDate":"2023-07-25 15:06:50","printDetailFlag":"","printFlag":2,"rcptNo":23072500008706,"rcptType":"诊察费票据","rcptUrl":"http:\/\/einvoice.jsczt.cn\/d\/473011eee92f27d2668","totalCharges":45}],"msg":"成功"}
+

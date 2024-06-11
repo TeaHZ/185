@@ -1,0 +1,6 @@
+2023-07-18 17:11:32.488 OnlineBusHos185_YYGH
+outData: {"Code":6,"Msg":"程序处理异常中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts..\r\nEnglish Message : Connection open error . Unable to connect to any of the specified MySQL hosts.","Param":null}
+
+2023-07-18 17:11:50.267 OnlineBusHos185_YYGH
+outData: {"Code":6,"Msg":"程序处理异常中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts..\r\nEnglish Message : Connection open error . Unable to connect to any of the specified MySQL hosts.","Param":null}
+

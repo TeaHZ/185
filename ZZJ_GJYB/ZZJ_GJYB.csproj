@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <FileVersion>1.0.0.36</FileVersion>
+
+
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\dll</OutputPath>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DB.Core\DB.Core.csproj" />
+    <ProjectReference Include="..\Log.Core\Log.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BusinessInterface">
+      <HintPath>..\dll\BusinessInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>..\dll\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PasS.Base.Lib">
+      <HintPath>..\dll\PasS.Base.Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

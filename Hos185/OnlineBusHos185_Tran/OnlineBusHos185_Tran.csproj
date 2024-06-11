@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<FileVersion>1.0.0.33</FileVersion>
+
+
+
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\..\dll</OutputPath>
+		<WarningLevel>1</WarningLevel>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Plat\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\DB.Core\DB.Core.csproj" />
+		<ProjectReference Include="..\..\Log.Core\Log.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Alipay.AopSdk.Core">
+		  <HintPath>..\..\dll\netcoreapp3.1\Alipay.AopSdk.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="BusinessInterface">
+			<HintPath>..\..\dll\BusinessInterface.dll</HintPath>
+		</Reference>
+		<Reference Include="Common">
+			<HintPath>..\..\dll\Common.dll</HintPath>
+		</Reference>
+		<Reference Include="CSRedisCore">
+			<HintPath>..\..\dll\netcoreapp3.1\CSRedisCore.dll</HintPath>
+		</Reference>
+		<Reference Include="EncryptionKey">
+			<HintPath>..\..\dll\EncryptionKey.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.Json">
+			<HintPath>..\..\dll\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="MySql.Data">
+			<HintPath>..\..\dll\MySql.Data.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>..\..\dll\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="PasS.Base.Lib">
+			<HintPath>..\..\dll\PasS.Base.Lib.dll</HintPath>
+		</Reference>
+		<Reference Include="SqlSugar">
+			<HintPath>..\..\dll\SqlSugar.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

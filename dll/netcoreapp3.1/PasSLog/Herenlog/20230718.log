@@ -1,0 +1,40 @@
+2023-07-18 08:48:42.116 Heren
+QHZZJGetReports「请求」:
+ {"IDCardNO":null,"StartDate":"2023-06-18","EndDate":"2023-07-19"}
+
+2023-07-18 08:48:55.038 Heren
+QHZZJGetReports「请求」:
+ {"IDCardNO":null,"StartDate":"2023-06-18","EndDate":"2023-07-19"}
+
+2023-07-18 08:49:24.294 Heren
+QHZZJGetReports「请求」:
+ {"IDCardNO":null,"StartDate":"2023-06-18","EndDate":"2023-07-19"}
+
+2023-07-18 08:50:27.257 Heren
+1001-QHZZJ「请求」:
+ {"zhengJianHM":"","yeWuLX":"1001","hospitalId":"320282466455146","yiBaoBH":"","yiBaoData":"","duKaFS":"1","jiuZhenKH":"05058283","yiBaoXX":"","shouJiHao":""}
+
+2023-07-18 08:50:27.612 Heren
+1001-QHZZJ「响应」:
+ {"code":1,"data":[{"bingRenLX":"宜兴医保","bingRenXM":"胡德泉","caoZuoRID":"","caoZuoRXM":"","chuShengDi":"江苏省宜兴市张渚镇渚钢路117－58号","chuShengRQ":"1954-09-21 00:00:00","chuanRanBingMS":"","chuangJianSJ":"2022-08-03 00:00:00","dianZiSBK":"","hunYinZT":"","jiGuan":"","jiaTingDZ":"","jianDangId":"05058283","jianKangKID":"","jianKangXW":"","laiYuan":"","lianXiRenDH":"","lianXiRenDZ":"","lianXiRenSJ":"","lianXiRenXM":"","manXingBingMS":"","minZuMC":"","shenGao":"","shouJiHao":13270195600,"tiZhong":"","touXiang":"","xingBie":1,"xueLi":"","xueXing":"","yiBaoKLX":"","yiBaoKa":"","youWuCRB":"","youWuMXB":"","zaiZhiZT":"","zhengJianHM":320223195409212571,"zhengJianLX":"","zhengZhiMMBM":"","zhengZhiMMMC":"","zhiYe":""}],"msg":"成功"}
+
+2023-07-18 08:50:27.658 Heren
+QHZZJGetReports「请求」:
+ {"IDCardNO":"320223195409212571","StartDate":"2023-06-18","EndDate":"2023-07-19"}
+
+2023-07-18 08:50:43.596 Heren
+1001-QHZZJ「请求」:
+ {"zhengJianHM":"","yeWuLX":"1001","hospitalId":"320282466455146","yiBaoBH":"","yiBaoData":"","duKaFS":"1","jiuZhenKH":"05058283","yiBaoXX":"","shouJiHao":""}
+
+2023-07-18 08:50:43.765 Heren
+1001-QHZZJ「响应」:
+ {"code":1,"data":[{"bingRenLX":"宜兴医保","bingRenXM":"胡德泉","caoZuoRID":"","caoZuoRXM":"","chuShengDi":"江苏省宜兴市张渚镇渚钢路117－58号","chuShengRQ":"1954-09-21 00:00:00","chuanRanBingMS":"","chuangJianSJ":"2022-08-03 00:00:00","dianZiSBK":"","hunYinZT":"","jiGuan":"","jiaTingDZ":"","jianDangId":"05058283","jianKangKID":"","jianKangXW":"","laiYuan":"","lianXiRenDH":"","lianXiRenDZ":"","lianXiRenSJ":"","lianXiRenXM":"","manXingBingMS":"","minZuMC":"","shenGao":"","shouJiHao":13270195600,"tiZhong":"","touXiang":"","xingBie":1,"xueLi":"","xueXing":"","yiBaoKLX":"","yiBaoKa":"","youWuCRB":"","youWuMXB":"","zaiZhiZT":"","zhengJianHM":320223195409212571,"zhengJianLX":"","zhengZhiMMBM":"","zhengZhiMMMC":"","zhiYe":""}],"msg":"成功"}
+
+2023-07-18 08:50:55.077 Heren
+QHZZJGetReports「请求」:
+ {"IDCardNO":"320223195409212571","StartDate":"2023-06-18","EndDate":"2023-07-19"}
+
+2023-07-18 16:37:31.551 Heren
+5119-QHZZJ「请求」:
+ {"liuShuiHao":null,"bingRenXM":null,"zongJinE":"0.2","shangHuDDH":"A20230718160318958505","jiuZhenKH":"","hospitalId":"320282466455146","yiBaoJE":null,"dingDanHao":"202307181603295285835625","xingBie":null,"yeWuLX":"5119","yiYuanYWLX":"2","jiuZhenKLX":"1","laiYuan":"1","yeWuLY":null,"sheBeiBH":"MZZZJ50","bingRenID":"00774334","jinE":"0.2","duKaFS":null,"yiBaoXX":null,"zhengJianHM":"32022319430310587X","bingRenLX":null,"ziFeiJE":null,"yiBaoData":null,"jiuZhenJLID":null,"caoZuoRId":"MZZZJ50","appID":"2022081925029211","channelTradeNo":"2023071822001487921410614955"}
+

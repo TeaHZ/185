@@ -1,0 +1,96 @@
+2023-07-14 11:16:26.014 Heren
+T2001「请求」:
+ OnlineBusHos9_YYGH.HISModels.T2001+input
+
+2023-07-14 11:16:26.410 Heren
+T2001「响应」:
+ {"Head":{"TradeCode":"T2001","TradeTime":"2023-07-14 11:16:18","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-14 11:16:32.660 Heren
+T2001「请求」:
+ OnlineBusHos9_YYGH.HISModels.T2001+input
+
+2023-07-14 11:16:32.784 Heren
+T2001「响应」:
+ {"Head":{"TradeCode":"T2001","TradeTime":"2023-07-14 11:16:25","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-14 11:20:43.264 Heren
+T2001「请求」:
+ OnlineBusHos9_YYGH.HISModels.T2001+input
+
+2023-07-14 11:20:43.640 Heren
+T2001「响应」:
+ {"Head":{"TradeCode":"T2001","TradeTime":"2023-07-14 11:20:35","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-14 11:21:00.937 Heren
+T2001「请求」:
+ OnlineBusHos9_YYGH.HISModels.T2001+input
+
+2023-07-14 11:21:01.072 Heren
+T2001「响应」:
+ {"Head":{"TradeCode":"T2001","TradeTime":"2023-07-14 11:20:53","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-14 11:24:42.026 Heren
+1001-QHZZJ「请求」:
+ {"zhengJianHM":"320223195502124410","yeWuLX":"1001","hospitalId":"320282466455146","yiBaoBH":"32028200000000001000567824","yiBaoData":"gFDJ7hwl0cvgYQQlxf60lGGNqzfQdVSx6ucamAK1fQ1N8Im99DyvhE4+jVDfnmuKh3ONeNpOnpBKXfuzUaGoddpRhzZdAb8z70sX0Ff/GT8rbkaBS9NUK5mOTm0HDJZHkMSmtsUgYEkGhIgOO8MbuUDp1W1wGy1Xwt/ekK/JCTnoaGREHygLxp00nG3Z372w9TQiLbe9Rs7Vi8kQSHJOiqkVSE8igbMd01BKwrwHt9paBsriP1Up2wGuIxGnt6WGuTBpEHgb2DyFwl+e2zRerfsohD8bY+WhXB0U/X71sMrftx+DGyp9XwWsPJv6UgMd","duKaFS":"1","jiuZhenKH":"","yiBaoXX":"320200|320223195502124410|194358210|320200D156000005AD95585F34EC5597|吴国良|0081544C9786843202AD95585F|3.00|20230208|20330208|320200909168|00010100202207001085|JSB042063333|6230661635023590342|","shouJiHao":""}
+
+2023-07-14 11:24:43.314 Heren
+1001-QHZZJ「响应」:
+ {"code":1,"data":[{"bingRenLX":"宜兴医保","bingRenXM":"吴国良","caoZuoRID":"","caoZuoRXM":"","chuShengDi":"江苏省无锡市宜兴市环科园丝绸花园12-403室","chuShengRQ":"1955-02-12 00:00:00","chuanRanBingMS":"","chuangJianSJ":"2022-02-22 00:00:00","dianZiSBK":"","hunYinZT":"","jiGuan":"","jiaTingDZ":"","jianDangId":"01017259","jianKangKID":"","jianKangXW":"","laiYuan":"","lianXiRenDH":"","lianXiRenDZ":"","lianXiRenSJ":"","lianXiRenXM":"","manXingBingMS":"","minZuMC":"","shenGao":"","shouJiHao":13338101928,"tiZhong":"","touXiang":"","xingBie":1,"xueLi":"","xueXing":"","yiBaoKLX":"","yiBaoKa":"","youWuCRB":"","youWuMXB":"","zaiZhiZT":"","zhengJianHM":320223195502124410,"zhengJianLX":"","zhengZhiMMBM":"","zhengZhiMMMC":"","zhiYe":""}],"msg":"成功"}
+
+2023-07-14 11:25:51.836 Heren
+2001「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"","shiFouCXXL":"0","menZhenLX":"0"}
+
+2023-07-14 11:25:52.132 Heren
+2001「响应」:
+ {"Head":{"TradeCode":"2001","TradeTime":"2023-07-14 11:25:44","TradeNo":"","TradeStatus":"AE","TradeMessage":"错误 <Ens>ErrBusinessDispatchNameNotRegistered: 业务调度名称 '系统服务总线' 未注册,无法运行","BranchCode":"","HospitalCode":"","SystemCode":"JCPT","HipSessionId":""}}
+
+2023-07-14 11:27:06.321 Heren
+2001-QHZZJ「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"","shiFouCXXL":"0","menZhenLX":"0"}
+
+2023-07-14 11:27:09.576 Heren
+2001-QHZZJ「响应」:
+ 成功，报文省略
+
+2023-07-14 13:46:48.968 Heren
+2001-QHZZJ「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"","shiFouCXXL":"0","menZhenLX":"0"}
+
+2023-07-14 13:46:52.049 Heren
+2001-QHZZJ「响应」:
+ 成功，报文省略
+
+2023-07-14 13:49:26.896 Heren
+2001-QHZZJ「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"A02","shiFouCXXL":"1","menZhenLX":"0"}
+
+2023-07-14 13:49:27.426 Heren
+2001-QHZZJ「响应」:
+ 成功，报文省略
+
+2023-07-14 13:51:34.736 Heren
+2001-QHZZJ「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"A03","shiFouCXXL":"1","menZhenLX":"0"}
+
+2023-07-14 13:51:35.516 Heren
+2001-QHZZJ「响应」:
+ 成功，报文省略
+
+2023-07-14 13:52:04.604 Heren
+2001-QHZZJ「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"A02","shiFouCXXL":"1","menZhenLX":"0"}
+
+2023-07-14 13:52:04.877 Heren
+2001-QHZZJ「响应」:
+ 成功，报文省略
+
+2023-07-14 13:52:26.549 Heren
+2001-QHZZJ「请求」:
+ {"yeWuLX":"2001","hospitalId":"320282466455146","keShiDM":"","shiFouCXXL":"0","menZhenLX":"0"}
+
+2023-07-14 13:52:29.406 Heren
+2001-QHZZJ「响应」:
+ 成功，报文省略
+

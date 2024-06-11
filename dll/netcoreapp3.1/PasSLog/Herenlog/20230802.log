@@ -1,0 +1,8 @@
+2023-08-02 10:29:22.002 Heren
+PAT012-QHZZJ「请求」:
+ {"Head":{"TradeCode":"PAT012-QHZZJ","TradeTime":"2023-08-02 10:29:21","TradeNo":null,"BranchCode":null,"HospitalCode":null,"SystemCode":"QHZZJ","HipKeyNo":"e4d303f20f4ade45e0ab76fb5e6f48b6"},"Body":{"zhengJianHM":"320223198105060517"}}
+
+2023-08-02 10:29:22.522 Heren
+PAT012-QHZZJ「响应」:
+ {"Head":{"TradeCode":"PAT012-QHZZJ","TradeTime":"2023-08-02 10:29:22","TradeNo":"","TradeStatus":"AA","TradeMessage":"查询成功","BranchCode":"10","HospitalCode":"","SystemCode":"JCPT","HipSessionId":"138424"},"Body":[{"AdmissionDateTime":"2023-08-01 15:59:47","AdtStatus":"已出院","Bingqu":"A二十病区","Chuangwei":"03","DischargeDateTime":"2023-08-01 16:26:46","Name":"顾玉峰","PatientId":100000036,"Ruyuanks":"呼吸与危重症医学科一","VisitNo":20230800006}]}
+
