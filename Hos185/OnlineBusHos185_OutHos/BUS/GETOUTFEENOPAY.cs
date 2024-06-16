@@ -50,10 +50,10 @@ namespace OnlineBusHos185_OutHos.BUS
                
                 _out.PRELIST = new List<Model.GETOUTFEENOPAY_M.PRE>();
 
-                var query = from a in datas.AsEnumerable()
+                var query = from a in datas.AsEnumerable()//a 即item
                             group a by new
                             {
-                                OPT_SN = a.cardNo,
+                                OPT_SN = a.cardNo,//可以理解为，换了字段名
                                 HOS_SN = a.clinicCode,
                                 DEPT_CODE = a.deptCode,
                                 DEPT_NAME = a.deptName,
@@ -65,13 +65,13 @@ namespace OnlineBusHos185_OutHos.BUS
                                 DIS_TYPE = "",
                                 a.billType
                             }
-                           into g
+                           into g 
                             select
                 new
                 {
                     g.Key.OPT_SN,
                     g.Key.HOS_SN,
-                    PRE_NO = string.Join("#", g.Select(a => FormatHelper.GetStr(a.recipeNo)).ToArray()),
+                    PRE_NO = string.Join("#", g.Select(a => FormatHelper.GetStr(a.recipeNo)).ToArray()),//核心就是这里的合并规则
                     g.Key.DEPT_CODE,
                     g.Key.DEPT_NAME,
                     g.Key.DOC_NO,
