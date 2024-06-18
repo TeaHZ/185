@@ -39,7 +39,7 @@ namespace OnlineBusHos185_Report.BUS
             {
                 cardNo = _in.HOSPATID,//医院内部就诊卡号
                 clinicCode = "",//挂号流水号
-                days = "90",//有效天数
+                days = FormatHelper.GetStr(MEDICALRECORDMOUS*30),//有效天数
                 idCardNo = "",
                 idCardType = "",
                 mcardNo = "",//绑定的医疗证号

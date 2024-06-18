@@ -54,7 +54,7 @@ namespace OnlineBusHos185_OutHos.BUS
                             group a by new
                             {
                                 OPT_SN = a.cardNo,//可以理解为，换了字段名
-                                HOS_SN = a.clinicCode,
+                                HOS_SN = a.clinicCode,//呼应后面的95 x.clinicCode==dr.HOS_SN
                                 DEPT_CODE = a.deptCode,
                                 DEPT_NAME = a.deptName,
                                 DOC_NO = a.doctCode,
@@ -71,7 +71,7 @@ namespace OnlineBusHos185_OutHos.BUS
                 {
                     g.Key.OPT_SN,
                     g.Key.HOS_SN,
-                    PRE_NO = string.Join("#", g.Select(a => FormatHelper.GetStr(a.recipeNo)).ToArray()),//核心就是这里的合并规则
+                    PRE_NO = string.Join("#", g.Select(a => FormatHelper.GetStr(a.recipeNo)).ToArray()),//核心就是这里的合并规则.一行一行执行
                     g.Key.DEPT_CODE,
                     g.Key.DEPT_NAME,
                     g.Key.DOC_NO,
