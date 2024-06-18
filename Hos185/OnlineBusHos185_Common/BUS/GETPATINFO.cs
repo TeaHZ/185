@@ -18,7 +18,7 @@ namespace OnlineBusHos185_Common.BUS
         public static string Business(string json_in)
         {
             DataReturn dataReturn = new DataReturn();
-            string json_out = "";
+            string json_out = "";;;
             try
             {
                 Model.GETPATINFO_M.GETPATINFO_IN _in = JsonConvert.DeserializeObject<Model.GETPATINFO_M.GETPATINFO_IN>(json_in);
