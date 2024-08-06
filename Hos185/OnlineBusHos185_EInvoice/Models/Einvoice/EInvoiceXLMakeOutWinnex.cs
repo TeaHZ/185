@@ -30,6 +30,7 @@ namespace Hos185_His.Models.Einvoice
         /// 
         /// </summary>
         public string transType { get; set; }
+        public string invoiceSource { get; set; }
     }
 
 }

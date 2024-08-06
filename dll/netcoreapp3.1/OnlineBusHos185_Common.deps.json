@@ -413,10 +413,20 @@
       },
       "Log.Core/1.0.0": {
         "dependencies": {
-          "MySql.Data": "8.0.32"
+          "MySql.Data": "8.0.32",
+          "PaaS.Base.Lib": "1.0.0"
         },
         "runtime": {
           "Log.Core.dll": {}
+        }
+      },
+      "PaaS.Base.Lib/1.0.0": {
+        "dependencies": {
+          "MySql.Data": "8.0.32",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "PaaS.Base.Lib.dll": {}
         }
       },
       "BusinessInterface/1.0.0.0": {
@@ -751,6 +761,11 @@
       "sha512": ""
     },
     "Log.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaaS.Base.Lib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

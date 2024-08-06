@@ -5,9 +5,9 @@ using System.Net.Security;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Data;
 
-
-    public class HttpClient
+public class HttpClient
     {
 
         // 请求的URL
@@ -217,7 +217,7 @@ using System.Text;
 
             //XmlDocument doc = new XmlDocument();
             //doc.Load(AppDomain.CurrentDomain.BaseDirectory + @"\bin\POSTSLBCALL.dll.config");
-            DataSet ds = XMLHelper.X_GetXmlData(doc, "configuration/appSettings");//请求的数据包
+            //DataSet ds = XMLHelper.X_GetXmlData(doc, "configuration/appSettings");//请求的数据包
 
             myReq.Timeout = 60 * 1000;
                 //foreach (DataRow dr in ds.Tables[0].Rows)

@@ -10,6 +10,7 @@
         "dependencies": {
           "DB.Core": "1.0.0",
           "Log.Core": "1.0.0",
+          "OnlineBusHos185": "1.0.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "BusinessInterface": "1.0.0.0",
           "Common": "1.0.0.0",
@@ -433,6 +434,11 @@
           "Log.Core.dll": {}
         }
       },
+      "OnlineBusHos185/1.0.0": {
+        "runtime": {
+          "OnlineBusHos185.dll": {}
+        }
+      },
       "PaaS.Base.Lib/1.0.0": {
         "dependencies": {
           "MySql.Data": "8.0.32",
@@ -578,6 +584,46 @@
           }
         }
       },
+      "Log.Helper/1.0.0.0": {
+        "runtime": {
+          "Log.Helper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2307.11701"
+          }
+        }
+      },
+      "DBUtility/1.0.0.0": {
+        "runtime": {
+          "DBUtility.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BLL/1.0.0.0": {
+        "runtime": {
+          "BLL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Plat.Model/1.0.0.0": {
+        "runtime": {
+          "Plat.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PlatDataSecret/1.0.0.0": {
+        "runtime": {
+          "PlatDataSecret.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2307.11701"
+          }
+        }
+      },
       "MQSchedulerPaaS/1.0.0.0": {
         "runtime": {
           "MQSchedulerPaaS.dll": {
@@ -615,6 +661,30 @@
           "DmProvider.dll": {
             "assemblyVersion": "1.1.2.0",
             "fileVersion": "1.1.2.21203"
+          }
+        }
+      },
+      "Soft.Lib/1.0.0.0": {
+        "runtime": {
+          "Soft.Lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Plat.IDAL/1.0.0.0": {
+        "runtime": {
+          "Plat.IDAL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Soft.DALFactory/1.0.0.0": {
+        "runtime": {
+          "Soft.DALFactory.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -898,6 +968,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "OnlineBusHos185/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PaaS.Base.Lib/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -988,6 +1063,31 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Log.Helper/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBUtility/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Plat.Model/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlatDataSecret/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MQSchedulerPaaS/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -1009,6 +1109,21 @@
       "sha512": ""
     },
     "DmProvider/1.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Soft.Lib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Plat.IDAL/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Soft.DALFactory/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

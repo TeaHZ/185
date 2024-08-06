@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace OnlineBusHos185_Common.BUS
 {
@@ -18,7 +19,8 @@ namespace OnlineBusHos185_Common.BUS
         public static string Business(string json_in)
         {
             DataReturn dataReturn = new DataReturn();
-            string json_out = "";;;
+            string json_out = "";
+
             try
             {
                 Model.GETPATINFO_M.GETPATINFO_IN _in = JsonConvert.DeserializeObject<Model.GETPATINFO_M.GETPATINFO_IN>(json_in);
@@ -32,8 +34,24 @@ namespace OnlineBusHos185_Common.BUS
                 string LTERMINAL_SN = FormatHelper.GetStr(_in.LTERMINAL_SN);
                 string USER_ID = FormatHelper.GetStr(_in.USER_ID);
                 string PAT_CARD_OUT = dic_filter.ContainsKey("PAT_CARD_OUT") ? dic_filter["PAT_CARD_OUT"] : "";
+                string hiscardno = _in.YLCARD_NO;
 
-                if (!string.IsNullOrEmpty(SFZ_NO)&&SFZ_NO.Length!=18)
+
+
+                //if (YLCARD_TYPE == "4" && YLCARD_NO.Length == 15)
+                //{
+                //    YLCARD_NO = PubFunc.IDCard15To18(YLCARD_NO);
+                //}
+
+                if (SFZ_NO.Length == 15)
+                {
+                    _in.SFZ_NO = PubFunc.IDCard15To18(SFZ_NO);
+                }
+
+
+
+
+                if (!string.IsNullOrEmpty(_in.SFZ_NO) && _in.SFZ_NO.Length != 18)
                 {
                     _out.IS_EXIST = "0";
                     dataReturn.Code = 2;
@@ -64,6 +82,14 @@ namespace OnlineBusHos185_Common.BUS
 
                     case "4":
                         idCardType = "01";
+                        bool containsLetter = Regex.IsMatch(YLCARD_NO.Substring(0, 1), "[a-zA-Z]");
+                        if (YLCARD_NO.Substring(0, 1) == "9" || containsLetter)
+                        {
+                            idCardType = "97";
+                            hiscardno = "";
+                            _in.PAT_NAME = "";
+                        }
+
                         mcardNoType = "4";
                         break;
                     case "91":
@@ -77,7 +103,8 @@ namespace OnlineBusHos185_Common.BUS
                 Hos185_His.Models.GETPATINFO getpatinfo = new Hos185_His.Models.GETPATINFO()
                 {
                     businessType = "",
-                    cardNo = _in.YLCARD_NO, //医院内部就诊卡号
+                    cardNo = hiscardno, //医院内部就诊卡号
+
                     idCardNo = _in.SFZ_NO, //证件号 和 cardNo不能同时为空
                     idCardType = idCardType, //证件类型 01:⾝份证 06:护照 08:港澳台居⺠来往内地通⾏证
                     mcardNo = "", //绑定的医疗证号

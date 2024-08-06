@@ -29,6 +29,7 @@ namespace OnlineBusHos185_EInvoice.Model
         public string FILTER { get; set; }
 
         public string ISSUELIST { get; set; }
+        public string invoiceSource { get; set; }
 
 
     }
@@ -106,6 +107,7 @@ namespace OnlineBusHos185_EInvoice.Model
         /// 
         /// </summary>
         public string INPATIENTNO { get; set; }
+        public string invoiceSource { get; set; }
     }
 
 }

@@ -112,11 +112,14 @@ namespace OnlineBusHos185_EInvoice.Model
             public string ISPRINT { get; set; }
 
             public string print_times { get; set; }
+            public string invoiceSource { get; set; }
             public string IS_ISSUE { get; internal set; }
             public string IS_CHECK { get; internal set; }
             public string SETTLECODE { get; internal set; }
             public string BUSINESS_TYPE { get; internal set; }
             public string INPATIENTNO { get; internal set; }
+
+
         }
     }
 }

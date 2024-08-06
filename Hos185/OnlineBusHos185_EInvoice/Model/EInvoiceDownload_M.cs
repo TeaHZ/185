@@ -33,6 +33,10 @@
         public string FILTER { get; set; }
 
         public string SETTLECODE { get; set; }
+        public string invoiceSource { get; set; }
+
+
+
     }
 
 

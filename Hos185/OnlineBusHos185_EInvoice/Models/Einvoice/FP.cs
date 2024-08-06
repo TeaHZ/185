@@ -12,6 +12,7 @@ namespace Hos185_His.Models.Einvoice
         public string invoiceNo { get; set; }
         public string invoiceType { get; set; }
         public string settleCode { get; set; }
+        public string invoiceSource { get; set; }
 
 
 

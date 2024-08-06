@@ -8,6 +8,8 @@ using System.Data;
 using System.Xml;
 using Newtonsoft.Json;
 using System.Linq;
+using System.Text.RegularExpressions;
+using System.IO;
 
 namespace OnlineBusHos185_Common.BUS
 {
@@ -23,6 +25,10 @@ namespace OnlineBusHos185_Common.BUS
                 Model.GETPATRECORD_M.GETPATRECORD_OUT _out = new Model.GETPATRECORD_M.GETPATRECORD_OUT();
                 string HOS_ID = FormatHelper.GetStr(_in.HOS_ID);
                 string SFZ_NO = FormatHelper.GetStr(_in.SFZ_NO);
+                if (SFZ_NO.Length == 15)
+                {
+                    SFZ_NO = PubFunc.IDCard15To18(SFZ_NO);
+                }
                 string PAT_NAME = FormatHelper.GetStr(_in.PAT_NAME);
                 string SEX = FormatHelper.GetStr(_in.SEX);
                 string AGE = FormatHelper.GetStr(_in.AGE);
@@ -49,9 +55,13 @@ namespace OnlineBusHos185_Common.BUS
                     {
                         case "4":
                             idCardType = "01";
+                            
+                        bool containsLetter = Regex.IsMatch(YLCARD_NO.Substring(0, 1), "[a-zA-Z]");
+                            if (YLCARD_NO.Substring(0, 1) == "9" || containsLetter)
+                            {
+                                idCardType = "97";
+                            }
                             break;
-
-
                         default:
                             break;
                     }
@@ -95,7 +105,10 @@ namespace OnlineBusHos185_Common.BUS
                     Hos185_His.Models.Output<List<Hos185_His.Models.SENDCARDINFODATA>>
                         output = main.CallServiceAPI<List<Hos185_His.Models.SENDCARDINFODATA>>("/hispatientinfo/compatient/saveComPatientInfo", inputjson);
 
+                    //StreamReader stream = new StreamReader("F:\\测试参数\\record.txt");
+                    //string aab = stream.ReadToEnd();
 
+                    //Hos185_His.Models.Output<List<Hos185_His.Models.SENDCARDINFODATA>> output = JsonConvert.DeserializeObject<Hos185_His.Models.Output<List<Hos185_His.Models.SENDCARDINFODATA>>>(aab);
 
                     if (output.code == 0)
                     {
@@ -222,7 +235,7 @@ namespace OnlineBusHos185_Common.BUS
                 catch (Exception ex)
                 {
                     dataReturn.Code = 5;
-                    dataReturn.Msg = "解析HIS出参失败,请检查HIS出参是否正确";
+                    dataReturn.Msg = "解析HIS出参失败,请检查HIS出参是否正确"+ex.Message;
                 }
             }
             catch (Exception ex)

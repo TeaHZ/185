@@ -174,6 +174,7 @@ namespace Hos185_His.Models.Einvoice
             public string hxNo { get; set; }
             public string printFlagQH { get { return _printFlagQH; } set { _printFlagQH = value; } }
             public string jssjh { get; set; }
+            public string invoiceSource { get; set; }
 
         }
 

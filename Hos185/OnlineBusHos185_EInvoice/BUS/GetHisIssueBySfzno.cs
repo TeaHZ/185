@@ -128,6 +128,8 @@ namespace OnlineBusHos185_EInvoice.BUS
                         list.SETTLECODE = item.queryid;
                         list.BUSINESS_TYPE = "0";
                         list.INPATIENTNO = item.clinicCode;
+                        list.invoiceSource = item.invoiceSource;
+
 
 
                         _out.HISISSUELISTS.Add(list);
@@ -165,6 +167,7 @@ namespace OnlineBusHos185_EInvoice.BUS
                         list.SETTLECODE = item.invoiceSeq;
                         list.BUSINESS_TYPE = "1";
                         list.INPATIENTNO = item.clinicCode;
+                        list.invoiceSource = item.invoiceSource;
 
                         _out.HISISSUELISTS.Add(list);
 

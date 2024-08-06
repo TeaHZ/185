@@ -23,7 +23,8 @@ namespace OnlineBusHos185_EInvoice.BUS
                 {
                     invoiceNo = _in.INVOICE_CODE,
                     invoiceType = "1",
-                    settleCode = _in.INVOICE_NUMBER
+                    settleCode = _in.INVOICE_NUMBER,
+                    invoiceSource=_in.invoiceSource
                 };
 
                 List<EInvoiceDirectQuery> queries = new List<EInvoiceDirectQuery>();

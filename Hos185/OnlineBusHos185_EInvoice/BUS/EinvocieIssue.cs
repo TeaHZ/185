@@ -30,7 +30,8 @@ namespace OnlineBusHos185_EInvoice.BUS
                         invoiceNo = item.INVOICE_CODE,
                         serialNo = item.INVOICE_NUMBER,
                         settleCode = item.SETTLECODE,
-                        transType = "1"
+                        transType = "1",
+                        invoiceSource= item.invoiceSource
                     };
 
                     queries.Add(MakeOut);

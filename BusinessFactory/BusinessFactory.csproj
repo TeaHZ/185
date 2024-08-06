@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DB.Core\DB.Core.csproj" />
     <ProjectReference Include="..\Log.Core\Log.Core.csproj" />
+    <ProjectReference Include="..\OnlineBusHos185\OnlineBusHos185.csproj" />
   </ItemGroup>
 
   <ItemGroup>

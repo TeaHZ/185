@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<FileVersion>1.0.1.96</FileVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\..\dll</OutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="ExternalHos.cs" />
+	</ItemGroup>
+
+	<!--1.0.1.63 缴费时的nopaymx 和 paylock还有医保云预算的hos_sn取 按 _ 拼接的首个字符-->
+
+
+	<ItemGroup>
+		<Reference Include="BLL">
+		  <HintPath>..\分库dlll\BLL.dll</HintPath>
+		</Reference>
+		<Reference Include="BusinessInterface">
+		  <HintPath>..\分库dlll\BusinessInterface.dll</HintPath>
+		</Reference>
+		<Reference Include="Common">
+			<HintPath>..\分库dlll\Common.dll</HintPath>
+		</Reference>
+		<Reference Include="DBUtility">
+			<HintPath>..\分库dlll\DBUtility.dll</HintPath>
+		</Reference>
+		<Reference Include="Log.Helper">
+			<HintPath>..\分库dlll\Log.Helper.dll</HintPath>
+		</Reference>
+		<Reference Include="MedicalPay.NJ">
+			<HintPath>..\分库dlll\MedicalPay.NJ.dll</HintPath>
+		</Reference>
+		<Reference Include="MySql.Data">
+		  <HintPath>..\分库dlll\MySql.Data.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+		  <HintPath>..\..\..\244\3PaaSZZJ\A0Public\netcoreapp3.1\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="PasS.Base.Lib">
+		  <HintPath>..\..\..\244\3PaaSZZJ\A0Public\netcoreapp3.1\PasS.Base.Lib.dll</HintPath>
+		</Reference>
+		<Reference Include="Plat.IDAL">
+			<HintPath>..\分库dlll\Plat.IDAL.dll</HintPath>
+		</Reference>
+		<Reference Include="Plat.Model">
+			<HintPath>..\分库dlll\Plat.Model.dll</HintPath>
+		</Reference>
+		<Reference Include="Plat.MySQLDAL">
+			<HintPath>..\分库dlll\Plat.MySQLDAL.dll</HintPath>
+		</Reference>
+		<Reference Include="PlatDataSecret">
+			<HintPath>..\分库dlll\PlatDataSecret.dll</HintPath>
+		</Reference>
+		<Reference Include="Soft.DALFactory">
+			<HintPath>..\分库dlll\Soft.Lib.dll</HintPath>
+		</Reference>
+		<Reference Include="SqlSugar">
+		  <HintPath>..\分库dlll\SqlSugar.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Configuration.ConfigurationManager">
+		  <HintPath>..\分库dlll\System.Configuration.ConfigurationManager.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+
+
+	<ItemGroup>
+	  <Folder Include="Connected Services\" />
+	</ItemGroup>
+
+</Project>

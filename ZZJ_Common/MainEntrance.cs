@@ -53,6 +53,14 @@ namespace ZZJ_Common
                         SUB_BUSNAME = "ZZJMonitor";
                         OutBusinessInfo = ZZJMonitor.Invoke(InBusinessInfo);
                         break;
+                    case "0013"://自助机传过来的大屏实时列表
+                        SUB_BUSNAME = "ZZJMonitor";
+                        OutBusinessInfo = ZZJMonitor.Invoke(InBusinessInfo);
+                        break; 
+                    case "0014"://自助机传过来的大屏实时列表
+                        SUB_BUSNAME = "ZZJMonitor";
+                        OutBusinessInfo = ZZJMonitor.Invoke(InBusinessInfo);
+                        break;
                 }
             }
             catch (Exception ex)
