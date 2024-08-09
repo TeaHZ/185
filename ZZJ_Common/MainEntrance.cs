@@ -53,13 +53,13 @@ namespace ZZJ_Common
                         SUB_BUSNAME = "ZZJMonitor";
                         OutBusinessInfo = ZZJMonitor.Invoke(InBusinessInfo);
                         break;
-                    case "0013"://自助机传过来的大屏实时列表
-                        SUB_BUSNAME = "ZZJMonitor";
-                        OutBusinessInfo = ZZJMonitor.Invoke(InBusinessInfo);
+                    case "0013"://获取评价项
+                        SUB_BUSNAME = "GETSATISFACTIONEVALUATION";
+                        OutBusinessInfo = BUS.GETSATISFACTIONEVALUATION.B_GETSATISFACTIONEVALUATION(InBusinessInfo);
                         break; 
-                    case "0014"://自助机传过来的大屏实时列表
-                        SUB_BUSNAME = "ZZJMonitor";
-                        OutBusinessInfo = ZZJMonitor.Invoke(InBusinessInfo);
+                    case "0014"://评价保存
+                        SUB_BUSNAME = "SAVESATISFACTIONEVALUATION";
+                        OutBusinessInfo = BUS.SAVESATISFACTIONEVALUATION.B_SAVESATISFACTIONEVALUATION(InBusinessInfo);
                         break;
                 }
             }

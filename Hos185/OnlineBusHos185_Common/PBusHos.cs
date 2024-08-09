@@ -26,6 +26,12 @@ namespace OnlineBusHos185_Common
                     case "0005"://凭条打印
                         OutBusinessInfo.BusData = BUS.TICKETREPRINT.B_TICKETREPRINT(InBusinessInfo.BusData);
                         break;
+                    case "0013"://获取评价
+                        OutBusinessInfo.BusData = BUS.GETSATISFACTIONEVALUATION.B_GETSATISFACTIONEVALUATION(InBusinessInfo.BusData);
+                        break;
+                    case "0014"://保存评价
+                        OutBusinessInfo.BusData = BUS.SAVESATISFACTIONEVALUATION.B_SAVESATISFACTIONEVALUATION(InBusinessInfo.BusData);
+                        break;
                     default:
                         DataReturn dataReturn = new DataReturn();
                         dataReturn.Code = 1;

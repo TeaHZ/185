@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace ZZJ_Common.BUS
 {
-    public class GETSATISFACTIONEVALUATION
+    internal class SAVESATISFACTIONEVALUATION
     {
-        public static string B_GETSATISFACTIONEVALUATION(string json_in)
+        public static string B_SAVESATISFACTIONEVALUATION(string json_in)
         {
             DataReturn dataReturn = new DataReturn();
             string json_out = "";
@@ -22,7 +22,7 @@ namespace ZZJ_Common.BUS
                     dataReturn.Msg = "HOS_ID为必传且不能为空";
                     goto EndPoint;
                 }
-                string out_data = GlobalVar.CallOtherBus(json_in, FormatHelper.GetStr(dic["HOS_ID"]), "ZZJ_Common", "0013").BusData;
+                string out_data = GlobalVar.CallOtherBus(json_in, FormatHelper.GetStr(dic["HOS_ID"]), "ZZJ_Common", "0014").BusData;
                 return out_data;
             }
             catch (Exception ex)

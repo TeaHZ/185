@@ -5458,6 +5458,7 @@ ORDER BY C.BAND_TIME DESC");
                 //h5交易
                 if (chnl == "H5PAY")
                 {
+                    operCode = "MYNJ";
                     P0105 p0105 = new P0105()
                     {
                         tradeChannel = "yqtyzf", //交易渠道 参考附录【交易渠道】
@@ -5493,6 +5494,7 @@ ORDER BY C.BAND_TIME DESC");
                 }
                 else if (chnl == "ALIPAY")//支付宝原生交易
                 {
+                    operCode = "QHAPP";
                     ocPayOrder ocPay = new ocPayOrder()
                     {
                         tradeChannel = "yqtyzf", //交易渠道 参考附录【交易渠道】
